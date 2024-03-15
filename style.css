@@ -26,6 +26,10 @@ h1 {
   margin-bottom: 2.6rem;
 }
 
+p {
+  font-size: 1.8rem;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -43,7 +47,7 @@ a {
 
 .active,
 a:hover {
-  font-weight: 500;
+  color: var(--primary-color);
 }
 
 .center-page {
@@ -69,9 +73,18 @@ button {
   font-size: 1.8rem;
   font-weight: 500;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 button:hover {
   background-color: var(--light);
+}
+
+button:hover a {
   color: var(--primary-color);
+}
+
+.wrap-content {
+  width:900px;
+  padding: 80px 60px;
 }
