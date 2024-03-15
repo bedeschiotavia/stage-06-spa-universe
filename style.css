@@ -15,9 +15,11 @@
 }
 
 body {
+  height: 100vh;
   font-family: 'Roboto', sans-serif;
-  background-color: black;
   color: var(--light);
+  background-size: cover;
+  background-color: var(--dark);
 }
 
 h1 {
@@ -51,16 +53,8 @@ a:hover {
 }
 
 .center-page {
-  width:900px;
-  height: 60px;
+  padding-top: 180px;
   text-align: center;
-
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  
   margin: auto;
 }
 
